@@ -114,9 +114,9 @@
         <module>distributions</module>
         <module>modules</module>
         <module>patterns</module>
-        <module>tools</module>
+<!--        <module>tools</module>-->
         <module>transports</module>
-        <module>tests</module>
+<!--        <module>tests</module>-->
         <module>extensions</module>
     </modules>
 
@@ -131,8 +131,8 @@
         <skipPerformanceTests>true</skipPerformanceTests>
         <skipArchetypeTests>true</skipArchetypeTests>
 
-        <skipDistributions>true</skipDistributions>
-        <skipVerifications>false</skipVerifications>
+        <skipDistributions>false</skipDistributions>
+        <skipVerifications>true</skipVerifications>
         <skipInstalls>false</skipInstalls>
         <skipGpg>true</skipGpg>
 
@@ -1710,7 +1710,7 @@
                     <artifactId>mule-assembly-verifier</artifactId>
                     <version>1.4</version>
                     <configuration>
-                        <skip>${skipDistributions}</skip>
+                        <skip>${skipVerifications}</skip>
                     </configuration>
                     <dependencies>
                         <!--

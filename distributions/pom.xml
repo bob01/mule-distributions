@@ -30,8 +30,8 @@
     </build>
 
     <modules>
-        <module>embedded</module>
+<!--        <module>embedded</module>-->
         <module>standalone</module>
-        <module>studio</module>
+<!--        <module>studio</module>-->
     </modules>
 </project>
