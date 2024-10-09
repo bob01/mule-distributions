@@ -15,7 +15,7 @@ import org.mule.transformer.types.DataTypeFactory;
 import org.mule.util.AttributeEvaluator;
 import org.mule.util.WildcardAttributeEvaluator;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public class CopyAttachmentsTransformer extends AbstractMessageTransformer
 {

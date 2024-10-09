@@ -17,7 +17,7 @@ import org.mule.transformer.AbstractTransformerTestCase;
 import org.mule.transformer.types.DataTypeFactory;
 import org.w3c.dom.Document;
 
-import javax.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBContext;
 import java.util.ArrayList;
 import java.util.List;
 

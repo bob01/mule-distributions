@@ -15,7 +15,7 @@ import org.mule.tck.junit4.FunctionalTestCase;
 
 import java.util.HashMap;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 import org.junit.Test;
 

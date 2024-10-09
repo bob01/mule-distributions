@@ -11,7 +11,7 @@ import org.mule.util.StringDataSource;
 import java.util.List;
 import java.util.Map;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 /**
  * Tests various cases for how attachments can added to an outbound message through a generic map by injecting the

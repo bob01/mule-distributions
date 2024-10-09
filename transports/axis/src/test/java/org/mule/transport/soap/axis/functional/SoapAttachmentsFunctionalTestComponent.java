@@ -8,7 +8,7 @@ package org.mule.transport.soap.axis.functional;
 
 import org.mule.tck.functional.FunctionalTestComponent;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public class SoapAttachmentsFunctionalTestComponent extends FunctionalTestComponent
     implements SoapAttachmentsFunctionalTest

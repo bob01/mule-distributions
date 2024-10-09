@@ -30,7 +30,7 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public abstract class AbstractAnnotatedEntrypointResolverTestCase extends AbstractMuleContextTestCase
 {

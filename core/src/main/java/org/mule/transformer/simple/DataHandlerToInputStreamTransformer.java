@@ -12,7 +12,7 @@ import org.mule.transformer.types.DataTypeFactory;
 
 import java.io.IOException;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public class DataHandlerToInputStreamTransformer extends AbstractDiscoverableTransformer
 {

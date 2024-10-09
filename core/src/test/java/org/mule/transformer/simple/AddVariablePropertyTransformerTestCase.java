@@ -32,7 +32,7 @@ import org.mule.transformer.types.TypedValue;
 import java.util.Arrays;
 import java.util.Collection;
 
-import javax.activation.MimeTypeParseException;
+import jakarta.activation.MimeTypeParseException;
 
 import org.junit.Before;
 import org.junit.Test;

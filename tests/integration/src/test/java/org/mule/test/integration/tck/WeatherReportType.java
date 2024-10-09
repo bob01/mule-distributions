@@ -6,8 +6,8 @@
  */
 package org.mule.test.integration.tck;
 
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlType;
 
 @XmlRootElement(name = "weatherReport")
 @XmlType(name = "WeatherReportType")

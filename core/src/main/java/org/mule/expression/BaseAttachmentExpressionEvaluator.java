@@ -11,7 +11,7 @@ import org.mule.api.MuleMessage;
 import org.mule.api.expression.RequiredValueException;
 import org.mule.config.i18n.CoreMessages;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public abstract class BaseAttachmentExpressionEvaluator extends AbstractExpressionEvaluator
 {

@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.text.MessageFormat;
 
-import javax.activation.MimetypesFileTypeMap;
+import jakarta.activation.MimetypesFileTypeMap;
 
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;

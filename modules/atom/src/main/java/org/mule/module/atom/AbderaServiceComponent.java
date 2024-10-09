@@ -27,7 +27,7 @@ import java.net.URI;
 import java.util.Date;
 import java.util.HashMap;
 
-import javax.activation.MimeType;
+import jakarta.activation.MimeType;
 
 import org.apache.abdera.Abdera;
 import org.apache.abdera.i18n.iri.IRI;

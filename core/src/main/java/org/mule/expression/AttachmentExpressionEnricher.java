@@ -6,7 +6,7 @@
  */
 package org.mule.expression;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 import java.text.MessageFormat;
 

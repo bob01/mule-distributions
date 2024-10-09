@@ -6,7 +6,7 @@
  */
 package org.mule.module.cxf.testmodels;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebResult;

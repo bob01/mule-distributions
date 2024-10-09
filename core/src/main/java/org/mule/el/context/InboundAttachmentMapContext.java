@@ -11,7 +11,7 @@ import org.mule.config.i18n.CoreMessages;
 
 import java.util.Set;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public class InboundAttachmentMapContext extends AbstractMapContext<String, DataHandler>
 {

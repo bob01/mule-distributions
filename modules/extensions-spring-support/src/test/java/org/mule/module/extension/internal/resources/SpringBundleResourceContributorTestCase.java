@@ -26,7 +26,7 @@ import org.mule.tck.size.SmallTest;
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.annotation.processing.ProcessingEnvironment;
+import jakarta.annotation.processing.ProcessingEnvironment;
 
 import org.apache.commons.lang.StringUtils;
 import org.junit.Before;

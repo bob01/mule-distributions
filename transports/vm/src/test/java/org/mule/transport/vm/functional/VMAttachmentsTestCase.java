@@ -18,8 +18,8 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.Collection;
 
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
+import jakarta.activation.DataHandler;
+import jakarta.activation.FileDataSource;
 
 import org.junit.Test;
 import org.junit.runners.Parameterized.Parameters;

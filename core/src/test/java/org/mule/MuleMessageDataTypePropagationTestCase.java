@@ -33,7 +33,7 @@ import org.mule.transport.NullPayload;
 import java.util.Collections;
 import java.util.HashMap;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 import org.hamcrest.Matchers;
 import org.junit.Before;

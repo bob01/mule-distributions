@@ -8,7 +8,7 @@ package org.mule.module.xml.config;
 
 import org.mule.config.i18n.CoreMessages;
 
-import javax.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBContext;
 
 import org.springframework.beans.factory.config.AbstractFactoryBean;
 

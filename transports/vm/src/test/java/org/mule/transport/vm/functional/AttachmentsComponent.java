@@ -13,8 +13,8 @@ import org.mule.api.lifecycle.Callable;
 
 import java.io.File;
 
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
+import jakarta.activation.DataHandler;
+import jakarta.activation.FileDataSource;
 
 /**
  * A test service that reads inbound attachments and sends an attachment back. This

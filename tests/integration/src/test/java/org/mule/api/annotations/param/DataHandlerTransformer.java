@@ -11,7 +11,7 @@ import org.mule.api.annotations.Transformer;
 
 import java.io.IOException;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 /**
  * TODO

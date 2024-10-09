@@ -8,7 +8,7 @@ package org.mule.test.issues;
 
 import org.junit.Ignore;
 
-import javax.xml.bind.annotation.XmlRegistry;
+import jakarta.xml.bind.annotation.XmlRegistry;
 
 @XmlRegistry
 @Ignore

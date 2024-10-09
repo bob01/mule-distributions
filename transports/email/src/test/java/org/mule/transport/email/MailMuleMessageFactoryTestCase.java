@@ -14,8 +14,8 @@ import org.mule.transport.AbstractMuleMessageFactoryTestCase;
 
 import java.util.Date;
 
-import javax.activation.DataHandler;
-import javax.activation.DataSource;
+import jakarta.activation.DataHandler;
+import jakarta.activation.DataSource;
 import javax.mail.BodyPart;
 import javax.mail.Message;
 import javax.mail.Message.RecipientType;

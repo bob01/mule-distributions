@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.Map;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public class HttpMultipartMuleMessageFactory extends HttpMuleMessageFactory
 {

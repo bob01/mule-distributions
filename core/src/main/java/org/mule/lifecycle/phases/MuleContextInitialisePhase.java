@@ -29,7 +29,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 /**
  * The MuleContextInitialisePhase defines the lifecycle behaviour when the Mule context is initialised.  The MuleContext is associated

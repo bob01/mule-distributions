@@ -6,7 +6,7 @@
  */
 package org.mule.transport.soap.axis.functional;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public interface SoapAttachmentsFunctionalTest
 {

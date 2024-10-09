@@ -14,7 +14,7 @@ import org.mule.transport.NullPayload;
 
 import java.util.Map;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 /**
  * Exposes information about the current Mule message:

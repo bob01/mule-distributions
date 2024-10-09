@@ -19,7 +19,7 @@ import org.mule.tck.junit4.FunctionalTestCase;
 import org.mule.tck.junit4.rule.DynamicPort;
 import org.mule.transport.soap.axis.AxisMessageDispatcher;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 import org.junit.Rule;
 import org.junit.Test;

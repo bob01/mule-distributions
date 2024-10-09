@@ -22,7 +22,7 @@ import org.mule.tck.size.SmallTest;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.annotation.processing.ProcessingEnvironment;
+import jakarta.annotation.processing.ProcessingEnvironment;
 import javax.lang.model.element.TypeElement;
 
 import org.junit.Before;

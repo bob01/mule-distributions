@@ -19,7 +19,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 /**
  * Looks up the attachment(s) on the message using the expression given. The expression can contain a comma-separated list

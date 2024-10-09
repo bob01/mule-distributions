@@ -12,8 +12,8 @@ import org.mule.api.context.MuleContextAware;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 
 public class JSR250ObjectLifecycleTracker implements MuleContextAware
     {

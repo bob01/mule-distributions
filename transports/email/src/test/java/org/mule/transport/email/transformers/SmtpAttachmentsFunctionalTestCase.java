@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import javax.activation.MimeType;
+import jakarta.activation.MimeType;
 import javax.mail.BodyPart;
 import javax.mail.internet.MimeMultipart;
 

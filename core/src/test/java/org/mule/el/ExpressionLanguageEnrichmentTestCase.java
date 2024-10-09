@@ -27,7 +27,7 @@ import org.mule.tck.testmodels.fruit.FruitCleaner;
 
 import java.util.Collections;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 import org.junit.Assert;
 import org.junit.Before;

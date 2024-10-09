@@ -9,8 +9,8 @@ package org.mule.module.xml.transformer.jaxb;
 import org.mule.api.MuleContext;
 import org.mule.config.transformer.AbstractAnnotatedTransformerArgumentResolver;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
 
 /**
  * This resolver is used by the transform engine to inject a JAXBContext into a method that requires it.

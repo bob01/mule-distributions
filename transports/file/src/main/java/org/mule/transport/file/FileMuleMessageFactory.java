@@ -14,7 +14,7 @@ import org.mule.transport.AbstractMuleMessageFactory;
 import java.io.File;
 import java.io.InputStream;
 
-import javax.activation.MimetypesFileTypeMap;
+import jakarta.activation.MimetypesFileTypeMap;
 
 /**
  * <code>FileMuleMessageFactory</code> creates a new {@link MuleMessage} with a

@@ -8,8 +8,8 @@ package org.mule.module.cxf.employee;
 
 import org.mule.example.employee.Employee;
 
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
+import jakarta.activation.DataHandler;
+import jakarta.activation.FileDataSource;
 
 public class EmployeeMessageGenerator
 {

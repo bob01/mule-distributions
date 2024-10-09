@@ -16,8 +16,8 @@ import org.mule.api.transport.PropertyScope;
 import org.mule.config.i18n.CoreMessages;
 import org.mule.util.ObjectUtils;
 
-import javax.activation.MimeType;
-import javax.activation.MimeTypeParseException;
+import jakarta.activation.MimeType;
+import jakarta.activation.MimeTypeParseException;
 
 /**
  * Verify that the inbound mime type is acceptable by this endpoint.

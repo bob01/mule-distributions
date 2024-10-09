@@ -9,7 +9,7 @@ package org.mule.module.jersey.contextresolver;
 
 import javax.ws.rs.ext.ContextResolver;
 import javax.ws.rs.ext.Provider;
-import javax.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBContext;
 
 @Provider
 public class NullContextResolver implements ContextResolver<JAXBContext>

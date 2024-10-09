@@ -8,8 +8,8 @@ package org.mule.lifecycle;
 
 import org.mule.tck.junit4.AbstractMuleContextTestCase;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 
 import org.junit.Test;
 

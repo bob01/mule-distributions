@@ -156,7 +156,7 @@
              Use the name of an Eclipse Java execution environment, Eclipse will
              choose the right one by itself.
         -->
-        <jdk7Name>JavaSE-1.7</jdk7Name>
+        <jdk7Name>JavaSE-17</jdk7Name>
 
         <activemqVersion>5.11.1</activemqVersion>
         <antVersion>1.7.0</antVersion>
@@ -257,6 +257,7 @@
         <xmlSecurityVersion>1.5.3</xmlSecurityVersion>
         <xstreamVersion>1.4.7</xstreamVersion>
         <xaPoolVersion>1.5.0</xaPoolVersion>
+        <jakartaActivationVersion>2.0.1</jakartaActivationVersion>
     </properties>
 
     <dependencies>
@@ -271,6 +272,21 @@
     <!-- Declare all dependencies that are used in more than one module here. -->
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.sun.activation</groupId>
+                <artifactId>jakarta.activation</artifactId>
+                <version>${jakartaActivationVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.annotation</groupId>
+                <artifactId>jakarta.annotation-api</artifactId>
+                <version>2.1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.xml.bind</groupId>
+                <artifactId>jakarta.xml.bind-api</artifactId>
+                <version>4.0.0</version>
+            </dependency>
             <dependency>
                 <groupId>javax.annotation</groupId>
                 <artifactId>javax.annotation-api</artifactId>

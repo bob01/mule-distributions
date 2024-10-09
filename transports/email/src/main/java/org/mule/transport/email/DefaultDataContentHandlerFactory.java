@@ -15,9 +15,9 @@ import com.sun.mail.handlers.text_xml;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.activation.DataContentHandler;
-import javax.activation.DataContentHandlerFactory;
-import javax.activation.DataHandler;
+import jakarta.activation.DataContentHandler;
+import jakarta.activation.DataContentHandlerFactory;
+import jakarta.activation.DataHandler;
 
 /**
  * This is a default registry for mapping MimeTypes to DataHandlers

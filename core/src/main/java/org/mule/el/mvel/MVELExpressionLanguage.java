@@ -43,8 +43,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.regex.Pattern;
 
-import javax.activation.DataHandler;
-import javax.activation.MimeType;
+import jakarta.activation.DataHandler;
+import jakarta.activation.MimeType;
 
 /**
  * Expression language that uses MVEL (http://mvel.codehaus.org/).

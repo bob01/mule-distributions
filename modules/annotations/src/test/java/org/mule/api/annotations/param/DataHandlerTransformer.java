@@ -13,7 +13,7 @@ import org.mule.util.IOUtils;
 import java.io.IOException;
 import java.io.InputStream;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 /**
  * TODO

@@ -9,8 +9,8 @@ package org.mule.module.cxf.testmodels;
 import java.io.IOException;
 import java.io.InputStream;
 
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
+import jakarta.activation.DataHandler;
+import jakarta.activation.FileDataSource;
 import javax.jws.WebService;
 import javax.xml.ws.Holder;
 

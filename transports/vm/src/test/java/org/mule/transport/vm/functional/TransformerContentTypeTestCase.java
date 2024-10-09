@@ -21,7 +21,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.activation.MimeType;
+import jakarta.activation.MimeType;
 
 import org.junit.Test;
 import org.junit.runners.Parameterized.Parameters;

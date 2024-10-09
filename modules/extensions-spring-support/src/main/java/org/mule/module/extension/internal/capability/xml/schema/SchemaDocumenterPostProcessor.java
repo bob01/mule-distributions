@@ -14,8 +14,8 @@ import org.mule.extension.introspection.DescribingContext;
 import org.mule.extension.introspection.spi.DescriberPostProcessor;
 import org.mule.module.extension.internal.resources.ExtensionResourcesGeneratorAnnotationProcessor;
 
-import javax.annotation.processing.ProcessingEnvironment;
-import javax.annotation.processing.RoundEnvironment;
+import jakarta.annotation.processing.ProcessingEnvironment;
+import jakarta.annotation.processing.RoundEnvironment;
 import javax.lang.model.element.TypeElement;
 
 import org.slf4j.Logger;

@@ -16,7 +16,7 @@ import org.mule.transformer.types.DataTypeFactory;
 
 import java.util.Arrays;
 
-import javax.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBContext;
 
 import org.custommonkey.xmlunit.XMLUnit;
 

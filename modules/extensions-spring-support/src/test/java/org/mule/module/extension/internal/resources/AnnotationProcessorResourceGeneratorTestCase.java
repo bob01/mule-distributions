@@ -18,7 +18,7 @@ import org.mule.tck.size.SmallTest;
 
 import java.io.OutputStream;
 
-import javax.annotation.processing.ProcessingEnvironment;
+import jakarta.annotation.processing.ProcessingEnvironment;
 import javax.tools.FileObject;
 
 import org.junit.Test;

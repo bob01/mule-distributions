@@ -20,7 +20,7 @@ import org.mule.transport.email.transformers.PlainTextDataSource;
 
 import java.util.Set;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 import org.junit.Test;
 

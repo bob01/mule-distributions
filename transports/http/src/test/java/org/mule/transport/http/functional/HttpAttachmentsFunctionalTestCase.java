@@ -24,7 +24,7 @@ import org.mule.util.StringDataSource;
 import java.util.Arrays;
 import java.util.Collection;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 import org.junit.Rule;
 import org.junit.Test;

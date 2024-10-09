@@ -11,7 +11,7 @@ import org.mule.api.MuleRuntimeException;
 
 import java.util.Set;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 
 public class OutboundAttachmentMapContext extends AbstractMapContext<String, DataHandler>
 {

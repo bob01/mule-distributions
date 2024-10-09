@@ -6,7 +6,7 @@
  */
 package org.mule.module.jersey;
 
-import javax.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class HelloBean

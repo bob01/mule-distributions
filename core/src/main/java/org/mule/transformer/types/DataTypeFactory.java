@@ -19,8 +19,8 @@ import java.lang.reflect.Proxy;
 import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
 
-import javax.activation.DataHandler;
-import javax.activation.DataSource;
+import jakarta.activation.DataHandler;
+import jakarta.activation.DataSource;
 
 /**
  * Factory class used to create {@link DataType} objects based on the parameter types passed into
