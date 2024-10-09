@@ -22,8 +22,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
 
-import javax.mail.Message;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.Message;
+import jakarta.mail.internet.MimeMessage;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

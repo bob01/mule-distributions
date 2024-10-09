@@ -20,14 +20,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import javax.mail.Address;
-import javax.mail.Header;
-import javax.mail.Message;
-import javax.mail.Message.RecipientType;
-import javax.mail.MessagingException;
-import javax.mail.Multipart;
-import javax.mail.Part;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.Address;
+import jakarta.mail.Header;
+import jakarta.mail.Message;
+import jakarta.mail.Message.RecipientType;
+import jakarta.mail.MessagingException;
+import jakarta.mail.Multipart;
+import jakarta.mail.Part;
+import jakarta.mail.internet.MimeMessage;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -118,7 +118,7 @@ public class MailMuleMessageFactory extends AbstractMuleMessageFactory
             muleMessage.setInboundProperty(MailProperties.FROM_ADDRESS_PROPERTY,
                 MailUtils.mailAddressesToString(mailMessage.getFrom()));
         }
-        catch (javax.mail.MessagingException me)
+        catch (jakarta.mail.MessagingException me)
         {
             log.warn("Invalid address found in From header:", me);
         }
@@ -190,7 +190,7 @@ public class MailMuleMessageFactory extends AbstractMuleMessageFactory
         }
     }
 
-    protected void addAttachmentHeaders(String name, Part part, MuleMessage muleMessage) throws javax.mail.MessagingException
+    protected void addAttachmentHeaders(String name, Part part, MuleMessage muleMessage) throws jakarta.mail.MessagingException
     {
         Map<String, String> headers = new HashMap<String, String>();
         for (Enumeration<?> e = part.getAllHeaders(); e.hasMoreElements();)

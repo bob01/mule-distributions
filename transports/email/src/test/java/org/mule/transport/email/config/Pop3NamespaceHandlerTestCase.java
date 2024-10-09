@@ -14,7 +14,7 @@ import org.mule.api.MuleException;
 import org.mule.transport.email.Pop3Connector;
 import org.mule.transport.email.Pop3sConnector;
 
-import javax.mail.Flags;
+import jakarta.mail.Flags;
 
 import org.junit.Test;
 

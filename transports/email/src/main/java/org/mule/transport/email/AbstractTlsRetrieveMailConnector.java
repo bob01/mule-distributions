@@ -17,7 +17,7 @@ import org.mule.api.security.tls.TlsPropertiesMapper;
 import java.io.IOException;
 import java.util.Properties;
 
-import javax.mail.URLName;
+import jakarta.mail.URLName;
 
 /**
  * Support for connecting to and receiving email from a secure mailbox (the exact protocol depends on

@@ -6,13 +6,13 @@
  */
 package org.mule.transport.email;
 
-import javax.mail.PasswordAuthentication;
+import jakarta.mail.PasswordAuthentication;
 
 /**
  * DefaultAuthenticator is used to do simple authentication when the SMTP server
  * requires it.
  */
-class DefaultAuthenticator extends javax.mail.Authenticator
+class DefaultAuthenticator extends jakarta.mail.Authenticator
 {
     private String username = null;
     private String password = null;

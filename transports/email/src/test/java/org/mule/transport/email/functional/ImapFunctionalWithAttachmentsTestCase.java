@@ -23,7 +23,7 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Collection;
 
-import javax.mail.Message;
+import jakarta.mail.Message;
 
 import org.junit.Test;
 import org.junit.runners.Parameterized.Parameters;

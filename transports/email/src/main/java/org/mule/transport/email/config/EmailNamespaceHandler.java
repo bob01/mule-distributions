@@ -19,7 +19,7 @@ import org.mule.transport.email.transformers.StringToEmailMessage;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.mail.Flags;
+import jakarta.mail.Flags;
 
 public class EmailNamespaceHandler extends AbstractMuleNamespaceHandler
 {

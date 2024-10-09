@@ -10,13 +10,13 @@ import org.mule.api.MuleMessage;
 import org.mule.api.routing.filter.Filter;
 import org.mule.util.ClassUtils;
 
-import javax.mail.Message;
+import jakarta.mail.Message;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 /**
- * <code>AbstractMailFilter</code> is a base class for all javax.mail.Message
+ * <code>AbstractMailFilter</code> is a base class for all jakarta.mail.Message
  * filters.
  */
 public abstract class AbstractMailFilter implements Filter

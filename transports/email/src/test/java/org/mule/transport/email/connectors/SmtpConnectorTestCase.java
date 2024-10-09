@@ -37,8 +37,8 @@ import org.mule.transport.email.functional.AbstractEmailFunctionalTestCase;
 
 import com.icegreen.greenmail.util.ServerSetup;
 
-import javax.mail.URLName;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.URLName;
+import jakarta.mail.internet.MimeMessage;
 
 import org.junit.Test;
 

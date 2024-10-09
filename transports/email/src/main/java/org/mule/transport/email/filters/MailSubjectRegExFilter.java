@@ -9,8 +9,8 @@ package org.mule.transport.email.filters;
 import org.mule.routing.filters.RegExFilter;
 import org.mule.util.ClassUtils;
 
-import javax.mail.Message;
-import javax.mail.MessagingException;
+import jakarta.mail.Message;
+import jakarta.mail.MessagingException;
 
 /**
  * <code>MailSubjectRegExFilter</code> applies a regular expression to a Mail

@@ -22,9 +22,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import javax.mail.Authenticator;
-import javax.mail.Session;
-import javax.mail.URLName;
+import jakarta.mail.Authenticator;
+import jakarta.mail.Session;
+import jakarta.mail.URLName;
 
 /**
  * Abstract superclass for mail connectors. Provides Mule with an Authenticator

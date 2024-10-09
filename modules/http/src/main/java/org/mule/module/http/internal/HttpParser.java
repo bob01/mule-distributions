@@ -27,13 +27,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.mail.BodyPart;
-import javax.mail.Header;
-import javax.mail.MessagingException;
-import javax.mail.internet.ContentType;
-import javax.mail.internet.MimeMultipart;
-import javax.mail.internet.ParseException;
-import javax.mail.util.ByteArrayDataSource;
+import jakarta.mail.BodyPart;
+import jakarta.mail.Header;
+import jakarta.mail.MessagingException;
+import jakarta.mail.internet.ContentType;
+import jakarta.mail.internet.MimeMultipart;
+import jakarta.mail.internet.ParseException;
+import jakarta.mail.util.ByteArrayDataSource;
 import javax.servlet.http.Part;
 
 import org.apache.commons.io.IOUtils;

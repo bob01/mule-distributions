@@ -6,7 +6,7 @@
  */
 package org.mule.transport.email.functional;
 
-import javax.mail.event.MessageCountEvent;
+import jakarta.mail.event.MessageCountEvent;
 
 import org.mule.api.construct.FlowConstruct;
 import org.mule.api.endpoint.InboundEndpoint;

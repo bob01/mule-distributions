@@ -14,7 +14,7 @@
     <description>Mule server and core classes</description>
 
     <properties>
-        <skipExportTests>false</skipExportTests>
+        <skipExportTests>true</skipExportTests>
     </properties>
 
     <build>

@@ -10,9 +10,9 @@ import org.mule.config.i18n.LocaleMessageHandler;
 
 import java.util.Locale;
 
-import javax.mail.MessagingException;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.MessagingException;
+import jakarta.mail.internet.InternetAddress;
+import jakarta.mail.internet.MimeMessage;
 
 public class Rfc822ByteArrayNonAsciiTestCase extends Rfc822ByteArrayTestCase 
 {

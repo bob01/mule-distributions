@@ -10,10 +10,10 @@ import org.mule.tck.junit4.AbstractMuleTestCase;
 
 import java.util.Map;
 
-import javax.mail.Part;
-import javax.mail.internet.AddressException;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeBodyPart;
+import jakarta.mail.Part;
+import jakarta.mail.internet.AddressException;
+import jakarta.mail.internet.InternetAddress;
+import jakarta.mail.internet.MimeBodyPart;
 
 import org.apache.commons.collections.map.HashedMap;
 import org.junit.Before;

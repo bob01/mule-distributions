@@ -23,9 +23,9 @@ import com.sun.mail.smtp.SMTPTransport;
 import java.net.URLDecoder;
 import java.util.Calendar;
 
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Transport;
+import jakarta.mail.Message;
+import jakarta.mail.MessagingException;
+import jakarta.mail.Transport;
 
 /**
  * <code>SmtpMessageDispatcher</code> will dispatch Mule events as Mime email

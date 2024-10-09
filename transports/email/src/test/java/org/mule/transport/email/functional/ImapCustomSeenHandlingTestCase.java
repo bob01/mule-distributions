@@ -21,8 +21,8 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import javax.mail.Flags;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.Flags;
+import jakarta.mail.internet.MimeMessage;
 
 import org.junit.Test;
 import org.junit.runners.Parameterized.Parameters;

@@ -16,8 +16,8 @@ import java.util.Collection;
 import java.util.List;
 
 import jakarta.activation.MimeType;
-import javax.mail.BodyPart;
-import javax.mail.internet.MimeMultipart;
+import jakarta.mail.BodyPart;
+import jakarta.mail.internet.MimeMultipart;
 
 import org.junit.Test;
 import org.junit.runners.Parameterized.Parameters;

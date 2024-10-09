@@ -32,10 +32,10 @@ import java.util.Locale;
 
 import jakarta.activation.CommandMap;
 import jakarta.activation.MailcapCommandMap;
-import javax.mail.Address;
-import javax.mail.Message;
-import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeMultipart;
+import jakarta.mail.Address;
+import jakarta.mail.Message;
+import jakarta.mail.internet.MimeMessage;
+import jakarta.mail.internet.MimeMultipart;
 
 import org.junit.Rule;
 

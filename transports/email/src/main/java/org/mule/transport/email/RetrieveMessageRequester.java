@@ -16,12 +16,12 @@ import com.sun.mail.imap.IMAPMessage;
 
 import java.net.URLDecoder;
 
-import javax.mail.Flags;
-import javax.mail.Folder;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Store;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.Flags;
+import jakarta.mail.Folder;
+import jakarta.mail.Message;
+import jakarta.mail.MessagingException;
+import jakarta.mail.Store;
+import jakarta.mail.internet.MimeMessage;
 
 /**
  * This dispatcher can only be used to receive message (as opposed to listening for them).

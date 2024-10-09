@@ -8,7 +8,7 @@ package org.mule.transport.email.functional;
 
 import java.util.Arrays;
 import java.util.Collection;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.internet.MimeMessage;
 
 import org.junit.Ignore;
 import org.junit.Test;

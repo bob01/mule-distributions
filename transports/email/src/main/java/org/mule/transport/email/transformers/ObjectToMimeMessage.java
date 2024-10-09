@@ -18,18 +18,18 @@ import java.io.Serializable;
 import java.util.Map;
 
 import jakarta.activation.DataHandler;
-import javax.mail.BodyPart;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.internet.MimeBodyPart;
-import javax.mail.internet.MimeMultipart;
-import javax.mail.util.ByteArrayDataSource;
+import jakarta.mail.BodyPart;
+import jakarta.mail.Message;
+import jakarta.mail.MessagingException;
+import jakarta.mail.internet.MimeBodyPart;
+import jakarta.mail.internet.MimeMultipart;
+import jakarta.mail.util.ByteArrayDataSource;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 /**
- * Transforms a {@link javax.mail.Message} to a {@link MuleMessage}, with support for attachments
+ * Transforms a {@link jakarta.mail.Message} to a {@link MuleMessage}, with support for attachments
  */
 public class ObjectToMimeMessage extends StringToEmailMessage
 {

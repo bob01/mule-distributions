@@ -6,7 +6,7 @@
  */
 package org.mule.module.http.internal.multipart;
 
-import javax.mail.internet.MimeMultipart;
+import jakarta.mail.internet.MimeMultipart;
 
 /**
  *

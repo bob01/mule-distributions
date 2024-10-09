@@ -17,7 +17,7 @@ import org.mule.api.security.tls.TlsPropertiesMapper;
 import java.io.IOException;
 import java.util.Properties;
 
-import javax.mail.URLName;
+import jakarta.mail.URLName;
 
 /** Creates a secure SMTP connection */
 public class SmtpsConnector extends SmtpConnector implements TlsIndirectTrustStore, TlsIndirectKeyStore

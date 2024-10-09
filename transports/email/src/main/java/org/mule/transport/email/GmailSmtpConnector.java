@@ -10,7 +10,7 @@ import org.mule.api.MuleContext;
 
 import java.util.Properties;
 
-import javax.mail.URLName;
+import jakarta.mail.URLName;
 
 /**
  * This class just sets some extra SMTP properties so it works with GMail.

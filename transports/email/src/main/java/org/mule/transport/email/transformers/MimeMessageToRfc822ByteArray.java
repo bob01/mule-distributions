@@ -12,7 +12,7 @@ import org.mule.transformer.types.DataTypeFactory;
 
 import java.io.ByteArrayOutputStream;
 
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.internet.MimeMessage;
 
 public class MimeMessageToRfc822ByteArray extends AbstractTransformer
 {

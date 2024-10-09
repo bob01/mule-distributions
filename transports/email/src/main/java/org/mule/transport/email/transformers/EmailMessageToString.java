@@ -10,9 +10,9 @@ import org.mule.api.transformer.TransformerException;
 import org.mule.transformer.AbstractDiscoverableTransformer;
 import org.mule.transformer.types.DataTypeFactory;
 
-import javax.mail.BodyPart;
-import javax.mail.Message;
-import javax.mail.internet.MimeMultipart;
+import jakarta.mail.BodyPart;
+import jakarta.mail.Message;
+import jakarta.mail.internet.MimeMultipart;
 
 /**
  * <code>EmailMessageToString</code> extracts the text body of java mail Message and

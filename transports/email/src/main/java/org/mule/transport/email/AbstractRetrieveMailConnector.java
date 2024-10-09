@@ -11,7 +11,7 @@ import org.mule.api.construct.FlowConstruct;
 import org.mule.api.endpoint.InboundEndpoint;
 import org.mule.api.transport.MessageReceiver;
 
-import javax.mail.Flags;
+import jakarta.mail.Flags;
 
 /**
  * Support for connecting to and receiving email from a mailbox (the exact protocol depends on

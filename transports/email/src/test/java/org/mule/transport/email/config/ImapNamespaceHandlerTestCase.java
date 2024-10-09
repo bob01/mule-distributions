@@ -16,7 +16,7 @@ import org.mule.api.MuleException;
 import org.mule.transport.email.ImapConnector;
 import org.mule.transport.email.ImapsConnector;
 
-import javax.mail.Flags;
+import jakarta.mail.Flags;
 
 import org.junit.Test;
 
