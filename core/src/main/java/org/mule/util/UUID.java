@@ -21,7 +21,7 @@ public final class UUID
 
     public static String getUUID()
     {
-//        return new com.eaio.uuid.UUID().toString();
-        return "1234";
+        return new com.eaio.uuid.UUID().toString();
+//        return "1234";
     }
 }
