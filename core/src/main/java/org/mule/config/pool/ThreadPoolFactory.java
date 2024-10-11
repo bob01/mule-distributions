@@ -17,7 +17,7 @@ import java.util.Iterator;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadPoolExecutor;
 
-import javax.imageio.spi.ServiceRegistry;
+import org.mule.spi.ServiceRegistry;
 
 /**
  * Uses a standard JDK's
