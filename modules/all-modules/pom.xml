@@ -165,11 +165,11 @@
             <artifactId>mule-module-tomcat</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.mule.modules</groupId>
-            <artifactId>mule-module-validation</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.mule.modules</groupId>-->
+<!--            <artifactId>mule-module-validation</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.mule.modules</groupId>
             <artifactId>mule-module-ws</artifactId>

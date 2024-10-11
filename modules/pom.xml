@@ -18,14 +18,14 @@
         <module>annotations</module>
 <!--        <module>all-modules</module>-->
 <!--        <module>builders</module>-->
-<!--        <module>boot</module>-->
+        <module>boot</module>
 <!--        <module>bpm</module>-->
 <!--        <module>cxf</module>-->
 <!--        <module>db</module>-->
 <!--        <module>devkit-support</module>-->
 <!--        <module>drools</module>-->
 <!--        <module>extensions-support</module>-->
-<!--        <module>launcher</module>-->
+        <module>launcher</module>
 <!--        <module>client</module>-->
 <!--        <module>guice</module>-->
         <module>http</module>
@@ -38,7 +38,7 @@
 <!--        <module>oauth</module>-->
 <!--        <module>ognl</module>-->
 <!--        <module>pgp</module>-->
-<!--        <module>reboot</module>-->
+        <module>reboot</module>
 <!--        <module>rss</module>-->
 <!--        <module>schedulers</module>-->
         <module>scripting</module>
@@ -54,6 +54,14 @@
 <!--        <module>ws</module>-->
         <module>xml</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.mule</groupId>
+            <artifactId>mule-core</artifactId>
+            <version>3.7.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
@@ -63,6 +71,14 @@
                 <configuration>
                     <skip>true</skip>
                     <skipDeploy>true</skipDeploy>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
                 </configuration>
             </plugin>
         </plugins>
