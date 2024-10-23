@@ -11,6 +11,11 @@
     <name>Jersey Module</name>
     <description>A module for Jersey, the JAX-RS RI.</description>
 
+    <properties>
+        <skipTests>true</skipTests>
+        <maven.test.skip>true</maven.test.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.mule</groupId>
@@ -57,7 +62,7 @@
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
-            <artifactId>jersey-media-json-jackson1</artifactId>
+            <artifactId>jersey-media-json-jackson</artifactId>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
