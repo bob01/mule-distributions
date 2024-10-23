@@ -89,7 +89,7 @@ rem Customized for Mule
 rem ###############################################################
 
 rem add XML compatibility jars
-set MULE_ENDORSED=-M-Djava.endorsed.dirs=%MULE_HOME%\lib\endorsed
+rem @Deprecated set MULE_ENDORSED=-M-Djava.endorsed.dirs=%MULE_HOME%\lib\endorsed
 
 rem redirect JUL logs to log4j2
 set JUL_LOG_MANAGER=-M-Djava.util.logging.manager=org.apache.logging.log4j.jul.LogManager

@@ -101,7 +101,7 @@ WRAPPER_CMD="${MULE_HOME}/lib/boot/exec/wrapper"
 WRAPPER_CONF="${MULE_BASE}/conf/wrapper.conf"
 
 # add XML compatibility jars
-MULE_ENDORSED=-M-Djava.endorsed.dirs="${MULE_HOME}/lib/endorsed"
+# @Deprecated MULE_ENDORSED=-M-Djava.endorsed.dirs="${MULE_HOME}/lib/endorsed"
 
 # redirect JUL logs to log4j2
 JUL_LOG_MANAGER=-M-Djava.util.logging.manager=org.apache.logging.log4j.jul.LogManager
