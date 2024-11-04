@@ -202,61 +202,61 @@
                 <exclude>org.mule.mvel:mule-mvel2</exclude>
                 <exclude>org.mule:mule-core</exclude>
                 <exclude>org.mule.transports:mule-transports-all</exclude>
-                <exclude>org.mule.transports:mule-transport-ajax</exclude>
-                <exclude>org.mule.transports:mule-transport-ejb</exclude>
-                <exclude>org.mule.transports:mule-transport-email</exclude>
-                <exclude>org.mule.transports:mule-transport-file</exclude>
-                <exclude>org.mule.transports:mule-transport-ftp</exclude>
+<!--                <exclude>org.mule.transports:mule-transport-ajax</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-ejb</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-email</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-file</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-ftp</exclude>-->
                 <exclude>org.mule.transports:mule-transport-http</exclude>
-                <exclude>org.mule.transports:mule-transport-jdbc</exclude>
-                <exclude>org.mule.transports:mule-transport-jetty</exclude>
-                <exclude>org.mule.transports:mule-transport-jms</exclude>
-                <exclude>org.mule.transports:mule-transport-multicast</exclude>
-                <exclude>org.mule.transports:mule-transport-quartz</exclude>
-                <exclude>org.mule.transports:mule-transport-rmi</exclude>
-                <exclude>org.mule.transports:mule-transport-servlet</exclude>
-                <exclude>org.mule.transports:mule-transport-sftp</exclude>
+<!--                <exclude>org.mule.transports:mule-transport-jdbc</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-jetty</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-jms</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-multicast</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-quartz</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-rmi</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-servlet</exclude>-->
+<!--                <exclude>org.mule.transports:mule-transport-sftp</exclude>-->
                 <exclude>org.mule.transports:mule-transport-ssl</exclude>
-                <exclude>org.mule.transports:mule-transport-stdio</exclude>
+<!--                <exclude>org.mule.transports:mule-transport-stdio</exclude>-->
                 <exclude>org.mule.transports:mule-transport-tcp</exclude>
-                <exclude>org.mule.transports:mule-transport-udp</exclude>
+<!--                <exclude>org.mule.transports:mule-transport-udp</exclude>-->
                 <exclude>org.mule.transports:mule-transport-vm</exclude>
-                <exclude>org.mule.transports:mule-transport-xmpp</exclude>
+<!--                <exclude>org.mule.transports:mule-transport-xmpp</exclude>-->
                 <exclude>org.mule.modules:mule-modules-all</exclude>
                 <exclude>org.mule.modules:mule-module-annotations</exclude>
-                <exclude>org.mule.modules:mule-module-atom</exclude>
+<!--                <exclude>org.mule.modules:mule-module-atom</exclude>-->
                 <exclude>org.mule.modules:mule-module-boot</exclude>
-                <exclude>org.mule.modules:mule-module-bpm</exclude>
-                <exclude>org.mule.modules:mule-module-builders</exclude>
-                <exclude>org.mule.modules:mule-module-client</exclude>
-                <exclude>org.mule.modules:mule-module-cxf</exclude>
-                <exclude>org.mule.modules:mule-module-db</exclude>
-                <exclude>org.mule.modules:mule-module-devkit-support</exclude>
-                <exclude>org.mule.modules:mule-module-drools</exclude>
-                <exclude>org.mule.modules:mule-module-extensions-support</exclude>
-                <exclude>org.mule.modules:mule-module-extensions-spring-support</exclude>
+<!--                <exclude>org.mule.modules:mule-module-bpm</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-builders</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-client</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-cxf</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-db</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-devkit-support</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-drools</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-extensions-support</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-extensions-spring-support</exclude>-->
                 <exclude>org.mule.modules:mule-module-http</exclude>
-                <exclude>org.mule.modules:mule-module-jaas</exclude>
+<!--                <exclude>org.mule.modules:mule-module-jaas</exclude>-->
                 <exclude>org.mule.modules:mule-module-jersey</exclude>
-                <exclude>org.mule.modules:mule-module-jbossts</exclude>
-                <exclude>org.mule.modules:mule-module-jbpm</exclude>
+<!--                <exclude>org.mule.modules:mule-module-jbossts</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-jbpm</exclude>-->
                 <exclude>org.mule.modules:mule-module-json</exclude>
                 <exclude>org.mule.modules:mule-module-launcher</exclude>
                 <exclude>org.mule.modules:mule-module-management</exclude>
-                <exclude>org.mule.modules:mule-module-oauth</exclude>
-                <exclude>org.mule.modules:mule-module-ognl</exclude>
-                <exclude>org.mule.modules:mule-module-pgp</exclude>
+<!--                <exclude>org.mule.modules:mule-module-oauth</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-ognl</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-pgp</exclude>-->
                 <exclude>org.mule.modules:mule-module-reboot</exclude>
-                <exclude>org.mule.modules:mule-module-rss</exclude>
+<!--                <exclude>org.mule.modules:mule-module-rss</exclude>-->
                 <exclude>org.mule.modules:mule-module-scripting</exclude>
-                <exclude>org.mule.modules:mule-module-schedulers</exclude>
+<!--                <exclude>org.mule.modules:mule-module-schedulers</exclude>-->
                 <exclude>org.mule.modules:mule-module-spring-config</exclude>
-                <exclude>org.mule.modules:mule-module-spring-extras</exclude>
-                <exclude>org.mule.modules:mule-module-spring-security</exclude>
-                <exclude>org.mule.modules:mule-module-sxc</exclude>
-                <exclude>org.mule.modules:mule-module-tomcat</exclude>
-                <exclude>org.mule.modules:mule-module-validation</exclude>
-                <exclude>org.mule.modules:mule-module-ws</exclude>
+<!--                <exclude>org.mule.modules:mule-module-spring-extras</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-spring-security</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-sxc</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-tomcat</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-validation</exclude>-->
+<!--                <exclude>org.mule.modules:mule-module-ws</exclude>-->
                 <exclude>org.mule.modules:mule-module-xml</exclude>
                 <exclude>org.mule.patterns:mule-patterns-all</exclude>
                 <exclude>org.mule.patterns:mule-pattern-core</exclude>

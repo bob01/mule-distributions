@@ -15,105 +15,105 @@
     </description>
 
     <dependencies>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-ajax</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-ejb</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-email</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-file</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-ftp</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-ajax</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-ejb</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-email</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-file</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-ftp</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.mule.transports</groupId>
             <artifactId>mule-transport-http</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-jdbc</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-jetty</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-jms</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-multicast</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-quartz</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-rmi</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-servlet</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-sftp</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-jdbc</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-jetty</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-jms</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-multicast</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-quartz</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-rmi</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-servlet</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-sftp</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.mule.transports</groupId>
             <artifactId>mule-transport-ssl</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-stdio</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-stdio</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.mule.transports</groupId>
             <artifactId>mule-transport-tcp</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-udp</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-udp</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.mule.transports</groupId>
             <artifactId>mule-transport-vm</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.mule.transports</groupId>
-            <artifactId>mule-transport-xmpp</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.mule.transports</groupId>-->
+<!--            <artifactId>mule-transport-xmpp</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
     </dependencies>
 </project>
