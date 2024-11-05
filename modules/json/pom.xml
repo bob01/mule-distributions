@@ -135,6 +135,12 @@
             <version>${jackson2Version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.fasterxml.jackson.jaxrs</groupId>
+            <artifactId>jackson-jaxrs-json-provider</artifactId>
+            <version>${jackson2Version}</version>
+        </dependency>
+
         <!-- test dependencies -->
         <dependency>
             <groupId>org.mule.tests</groupId>
