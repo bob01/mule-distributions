@@ -100,7 +100,8 @@ abstract class DispatchingLogger extends Logger
      *
      * @param config
      */
-    void updateConfiguration(final Configuration config)
+// Assume addressed and no longer needed
+    void updateConfigurations(final Configuration config)
     {
         if (lookupUpdateConfigurationMethod())
         {

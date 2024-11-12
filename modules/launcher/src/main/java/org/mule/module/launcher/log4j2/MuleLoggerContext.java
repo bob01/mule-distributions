@@ -98,7 +98,7 @@ class MuleLoggerContext extends LoggerContext
         {
             if (logger instanceof DispatchingLogger)
             {
-                ((DispatchingLogger) logger).updateConfiguration(config);
+                ((DispatchingLogger) logger).updateConfigurations(config);
             }
         }
     }
